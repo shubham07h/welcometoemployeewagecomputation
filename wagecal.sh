@@ -31,7 +31,7 @@ do
 	salary=$(($perHourSalary * $workingHour));
 	totalSalary=$(($totalSalary + $salary));
 	((day++));
-echo "daily Wage:" ${salary[@]}
+
 echo "Day:"${day[@]}
 echo "Total Wage:"${totalsalary[@]}
 
